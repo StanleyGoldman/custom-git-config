@@ -7,13 +7,8 @@
 	smudge = git-lfs smudge -- %f
 	required = true
 	process = git-lfs filter-process
-[credential]
-[credential]
-[credential]
-[credential]
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	stat = status -b -u --porcelain
-[credential]
 [push]
 	default = simple
