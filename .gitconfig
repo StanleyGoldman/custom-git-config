@@ -18,6 +18,7 @@
 	ap = add -p
 
 	cm = commit -m
+	co = checkout
 
 	stat = status -b -u --porcelain
 	
