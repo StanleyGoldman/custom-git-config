@@ -20,6 +20,12 @@
 	cm = commit -m
 	co = checkout
 
+	d = diff
+	ds = diff --staged
+ 
+ 	r = reset
+	rh = reset --hard
+
 	stat = status -b -u --porcelain
 	
 	#http://stackoverflow.com/a/7067489/104877
