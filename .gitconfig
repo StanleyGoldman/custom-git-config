@@ -8,7 +8,10 @@
 	required = true
 	process = git-lfs filter-process
 [alias]
+	#https://coderwall.com/p/euwpig/a-better-git-log
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lgr = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --remotes
+	
 	stat = status -b -u --porcelain
 [push]
 	default = simple
