@@ -17,6 +17,8 @@
 	aa = add -A
 	ap = add -p
 
+	cm = commit -m
+
 	stat = status -b -u --porcelain
 	
 	#http://stackoverflow.com/a/7067489/104877
