@@ -18,6 +18,13 @@
 	ap = add -p
 
 	cm = commit -m
+	co = checkout
+
+	d = diff
+	ds = diff --staged
+ 
+ 	r = reset
+	rh = reset --hard
 
 	stat = status -b -u --porcelain
 	
