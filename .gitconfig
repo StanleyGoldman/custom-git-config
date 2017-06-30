@@ -11,7 +11,12 @@
 	#https://coderwall.com/p/euwpig/a-better-git-log
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	lgr = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --remotes
-	
+	lga = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+
+	a = add
+	aa = add -A
+	ap = add -p
+
 	stat = status -b -u --porcelain
 	
 	#http://stackoverflow.com/a/7067489/104877
