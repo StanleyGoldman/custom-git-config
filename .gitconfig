@@ -19,5 +19,9 @@
 	
 	#idea to open issues by number in a browser
 	#issues = "!f() { hub browse -- issues/$1; }; f"
+	
+[hub]
+	protocol = https
+	
 [push]
 	default = simple
