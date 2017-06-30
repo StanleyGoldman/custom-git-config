@@ -13,5 +13,8 @@
 	lgr = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --remotes
 	
 	stat = status -b -u --porcelain
+	
+	#http://stackoverflow.com/a/7067489/104877
+	alias = config --get-regexp ^alias\\.
 [push]
 	default = simple
