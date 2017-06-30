@@ -16,5 +16,8 @@
 	
 	#http://stackoverflow.com/a/7067489/104877
 	alias = config --get-regexp ^alias\\.
+	
+	#idea to open issues by number in a browser
+	#issues = "!f() { hub browse -- issues/$1; }; f"
 [push]
 	default = simple
