@@ -20,6 +20,8 @@
 	#idea to open issues by number in a browser
 	#issues = "!f() { hub browse -- issues/$1; }; f"
 	
+	#http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
+	#ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
 [hub]
 	protocol = https
 	
