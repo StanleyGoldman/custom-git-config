@@ -1,3 +1,5 @@
+[core]
+	editor = vim
 [user]
 	name = Stanley Goldman
 [user]
@@ -16,6 +18,9 @@
 	a = add
 	aa = add -A
 	ap = add -p
+
+	b = branch
+	br = branch -r
 
 	cm = commit -m
 	co = checkout
