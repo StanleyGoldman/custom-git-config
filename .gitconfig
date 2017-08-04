@@ -1,3 +1,5 @@
+[core]
+	editor = vim
 [user]
 	name = Stanley Goldman
 [user]
@@ -16,6 +18,12 @@
 	a = add
 	aa = add -A
 	ap = add -p
+
+	b = branch
+	br = branch -r
+
+	f = fetch
+	fp = fetch --prune
 
 	cm = commit -m
 	co = checkout
@@ -36,6 +44,8 @@
 	
 	#http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
 	#ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+	
+	smi = submodule update --init
 
 	tlg = !start TortoiseGitProc.exe /command:log
 	trg = !start TortoiseGitProc.exe /command:revisiongraph
