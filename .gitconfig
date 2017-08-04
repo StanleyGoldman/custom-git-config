@@ -22,6 +22,9 @@
 	b = branch
 	br = branch -r
 
+	f = fetch
+	fp = fetch --prune
+
 	cm = commit -m
 	co = checkout
 
