@@ -60,3 +60,11 @@
 	default = simple
 [credential]
 	helper = wincred
+[merge]
+	tool = bc3
+[difftool "bc3"]
+	path = C:\\Program Files\\Beyond Compare 4\\BComp.exe
+[mergetool "bc3"]
+	path = C:\\Program Files\\Beyond Compare 4\\BComp.exe
+[diff]
+	tool = bc3
