@@ -2,9 +2,9 @@
 	editor = vim
 [user]
 	name = Stanley Goldman
-[user]
 	email = Stanley.Goldman@gmail.com
 [filter "lfs"]
+	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	required = true
@@ -25,11 +25,16 @@
 	f = fetch
 	fp = fetch --prune
 
+	c = commit
 	cm = commit -m
 	co = checkout
 
 	d = diff
 	ds = diff --staged
+	dt = difftool
+	dts = difftool --staged
+
+	mt = mergetool
  
  	r = reset
 	rh = reset --hard
@@ -45,9 +50,8 @@
 	#http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
 	#ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
 	
-	smi = submodule update --init
-[hub]
-	protocol = https
+	sm = submodule
+	smui = submodule update --init
 	
 [push]
 	default = simple
