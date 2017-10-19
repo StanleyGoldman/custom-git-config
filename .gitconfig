@@ -29,6 +29,9 @@
 	cm = commit -m
 	co = checkout
 
+	ss = stash save
+	sp = stash pop
+
 	d = diff
 	ds = diff --staged
 	dt = difftool
