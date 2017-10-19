@@ -55,6 +55,8 @@
 
 	tlg = !start TortoiseGitProc.exe /command:log
 	trg = !start TortoiseGitProc.exe /command:revisiongraph
+[hub]
+	protocol = https
 	
 [push]
 	default = simple
