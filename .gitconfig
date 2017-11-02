@@ -28,8 +28,16 @@
 	c = commit
 	cm = commit -m
 	co = checkout
+	cop = checkout -p
+	ca = commit --amend
+	can = commit --amend --no-edit
 
+	s = stash
 	ss = stash save
+	ssp = stash save -p
+	sa = stash apply
+	sl = stash list 
+	sc = stash clear
 	sp = stash pop
 
 	d = diff
@@ -40,6 +48,7 @@
 	mt = mergetool
  
  	r = reset
+ 	rp = reset -p
 	rh = reset --hard
 
 	stat = status -b -u --porcelain
