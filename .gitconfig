@@ -27,10 +27,11 @@
 
 	c = commit
 	cm = commit -m
-	co = checkout
-	cop = checkout -p
 	ca = commit --amend
 	can = commit --amend --no-edit
+
+	co = checkout
+	cop = checkout -p
 
 	s = stash
 	ss = stash save
