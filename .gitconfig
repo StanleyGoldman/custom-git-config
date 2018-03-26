@@ -44,7 +44,9 @@
 	d = diff
 	ds = diff --staged
 	dt = difftool
+	dtd = difftool -d
 	dts = difftool --staged
+	dtsd = difftool --staged -d
 
 	mt = mergetool
  
