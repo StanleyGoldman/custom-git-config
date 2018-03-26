@@ -27,11 +27,11 @@
 
 	c = commit
 	cm = commit -m
-	ca = commit --amend
-	can = commit --amend --no-edit
-
 	co = checkout
 	cop = checkout -p
+	ca = commit --amend
+	cn = commit --no-edit
+	can = commit --amend --no-edit
 
 	s = stash
 	ss = stash save
@@ -70,7 +70,6 @@
 	trg = !start TortoiseGitProc.exe /command:revisiongraph
 [hub]
 	protocol = https
-	
 [push]
 	default = simple
 [credential]
