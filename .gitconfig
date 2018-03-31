@@ -99,3 +99,4 @@
 	path = C:\\Program Files\\Beyond Compare 4\\BComp.exe
 [diff]
 	tool = bc3
+	mnemonicprefix = true
