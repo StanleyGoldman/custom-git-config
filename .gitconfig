@@ -74,6 +74,9 @@
 	
 	sm = submodule
 	smui = submodule update --init
+	
+	#http://caiustheory.com/git-git-git-git-git/
+	git = !exec git
 
 [hub]
 	protocol = https
