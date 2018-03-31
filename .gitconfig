@@ -21,6 +21,10 @@
 
 	b = branch
 	br = branch -r
+	ba = branch -a
+	
+	#https://gist.github.com/EQuimper/d875df92ef0ddaabf00636c90dbc9d25
+	bm = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
 
 	f = fetch
 	fp = fetch --prune
@@ -40,9 +44,12 @@
 	sl = stash list 
 	sc = stash clear
 	sp = stash pop
+	sd = stash drop
 
 	d = diff
+	di = diff --stat
 	ds = diff --staged
+	dsi = diff --staged --stat
 	dt = difftool
 	dtd = difftool -d
 	dts = difftool --staged
@@ -74,6 +81,9 @@
 	protocol = https
 [push]
 	default = simple
+[advice]
+	pushNonFastForward = false
+	statusHints = false
 [credential]
 	helper = wincred
 [merge]
