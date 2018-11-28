@@ -76,6 +76,7 @@
 	#ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
 	
 	sm = submodule
+	smf = submodule foreach
 	smui = submodule update --init
 	
 	#http://caiustheory.com/git-git-git-git-git/
