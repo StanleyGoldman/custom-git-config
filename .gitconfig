@@ -26,6 +26,9 @@
 	#https://gist.github.com/EQuimper/d875df92ef0ddaabf00636c90dbc9d25
 	bm = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
 
+	#https://medium.com/@zlobin/advanced-git-advice-27087a7fbb29
+	bp = "!git branch --merged master | grep -v '^\\*' | xargs -n 1 git branch -d"
+
 	f = fetch
 	fp = fetch --prune
 
