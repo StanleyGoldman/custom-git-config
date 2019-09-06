@@ -63,6 +63,7 @@
  	r = reset
  	rp = reset -p
 	rh = reset --hard
+	rs = reset --soft
 
 	stat = status -b -u --porcelain
 	
